@@ -13,9 +13,9 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/taxi")
 public class TaxiController {
-    @Autowired
     private TaxiService taxiService;
 
+    @Autowired
     public TaxiController(TaxiService taxiService) {
         this.taxiService = taxiService;
     }
