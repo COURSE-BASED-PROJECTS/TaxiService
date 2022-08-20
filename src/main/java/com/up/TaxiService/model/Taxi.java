@@ -5,7 +5,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "taxis")
+@Table(name = "taxi")
 public class Taxi {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO,generator="native")
